@@ -14,7 +14,8 @@
 ### 1. Overview
 
 - Project title : dugsnotes_vue2_by_freecodecamp
-- Related URL : https://youtu.be/Kt2E8nblvXU?si=viZ0DcWekE1eG7DI
+- Related URL1 : https://youtu.be/Kt2E8nblvXU?si=viZ0DcWekE1eG7DI
+- Related URL2 : https://scrimba.com/learn-vue-c0jrrpaasr
 - Period : Aug 23 2026 - in progress
 - Member(s) : Dug Park
 - Tech stack : </br>

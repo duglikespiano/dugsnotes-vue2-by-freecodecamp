@@ -14,7 +14,8 @@
 ### 1. 概要
 
 - Project タイトル : dugsnotes_vue2_by_freecodecamp
-- 関連 URL : https://youtu.be/Kt2E8nblvXU?si=viZ0DcWekE1eG7DI
+- 関連 URL1 : https://youtu.be/Kt2E8nblvXU?si=viZ0DcWekE1eG7DI
+- 関連 URL2 : https://scrimba.com/learn-vue-c0jrrpaasr
 - 期間 : 2026.08.23 - 進行中
 - 人員 : 1 人
 - 技術スタック : </br>
