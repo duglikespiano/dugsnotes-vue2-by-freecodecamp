@@ -1,101 +1,107 @@
 /* BASE CSS */
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-	background-color: #406473;
-	font-family: sans-serif;
+body{
+    background-color:#406473;
+    font-family: sans-serif;
 }
 
 #app {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:25px;
 }
 /**********/
+
+
 
 /* HEADER CSS */
 header {
-	color: #ccd6d9;
-	margin-bottom: 25px;
+    color:#CCD6D9;
+    margin-bottom:25px;
 }
 /**********/
+
+
 
 /* MAIN CSS */
 main {
-	background: #ccd6d9;
-	max-width: 90%;
-	border-radius: 0 15px 0 15px;
-	padding: 35px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
+    background: #CCD6D9;
+    max-width:90%;
+    border-radius:0 15px 0 15px;
+    padding:35px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
 }
 
 main section {
-	display: flex;
-	width: 100%;
-	flex-direction: column;
-	gap: 10px;
-	margin-bottom: 25px;
+    display: flex;
+    width:100%;
+    flex-direction:column;
+    gap:10px;
+    margin-bottom:25px;
 }
 
 main p {
-	font-weight: bold;
-	font-style: italic;
-	font-size: 2rem;
-	text-align: left;
+    font-weight:bold;
+    font-style: italic;
+    font-size:2rem;
+    text-align:left;
 }
 
 main p::before {
-	content: '"';
+    content: '"'
 }
 
 main p::after {
-	content: '"';
+    content: '"'
 }
 
 main span {
-	align-self: end;
-	color: #406473;
+    align-self:end;
+    color: #406473;
 }
 
 main span::before {
-	content: '- ';
+    content: "- "
 }
 
 main button {
-	background: #406473;
-	color: white;
-	padding: 10px;
-	border: 0;
-	font-size: 1.2rem;
-	border-radius: 0 5px 0 5px;
-	font-weight: bold;
-	margin-top: 20px;
-	cursor: pointer;
-	transition: transform 0.2s;
+    background:#406473;
+    color: white;
+    padding:10px;
+    border: 0;
+    font-size:1.2rem;
+    border-radius:0 5px 0 5px;
+    font-weight:bold;
+    margin-top:20px;
+    cursor:pointer;
+    transition: transform 0.2s;
 }
-main button:hover {
-	transform: scale(1.05);
+main button:hover{
+    transform: scale(1.05);
 }
 /**********/
 
+
+
 /* FOOTER CSS */
 footer {
-	position: fixed;
-	margin: 0 auto;
-	bottom: 0;
-	text-align: center;
-	color: #ccd6d9;
-	padding-bottom: 20px;
+    position:fixed;
+    margin: 0 auto;
+    bottom:0;
+    text-align:center;
+    color:#CCD6D9;
+    padding-bottom:20px;
 }
 
-footer span {
-	font-family: cursive;
+footer span{
+    font-family: cursive;
 }
