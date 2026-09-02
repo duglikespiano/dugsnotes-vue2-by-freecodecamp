@@ -1,13 +1,14 @@
 <script setup>
 import { ref } from 'vue';
 const year = ref('2025');
-const href = ref('http://scrimba.com');
+const href = ref('https://scrimba.com');
+
 year.value = '2014';
 </script>
 
 <template>
 	<footer>
-		Created by <a v-bind:href="href"><span>Professor Pickle</span></a> &copy; {{ year }}
+		Created by <a target="_blank" :href><span>Professor Pickle</span></a> &copy; {{ year }}
 	</footer>
 </template>
 
