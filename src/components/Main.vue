@@ -1,97 +1,63 @@
 <script setup>
 import { ref } from 'vue';
-const quote = ref('First, solve the problem. Then, write the code');
-const author = ref('John Johnson');
-const href = ref('https://en.wikipedia.org/wiki/Undocumented_feature');
-const isBtnDisabled = ref(true);
-
-quote.value = "It's a feature, not a bug";
-author.value = 'Unknown';
+const facts = ref([
+	{
+		adjective: 'Lightweight',
+		description: "I am incredibly small and fast! My core library is only around 30KB, so I won't slow you down.",
+	},
+	{
+		adjective: 'Approachable',
+		description:
+			'Easy to learn and use, even for beginners. I have a gentle learning curve, clear documentation, and a supportive community.',
+	},
+	{
+		adjective: 'Versatile',
+		description:
+			"I can handle everything from simple interactive elements to complex single-page applications. I'm great for small projects and large-scale applications alike.",
+	},
+]);
 </script>
 
 <template>
 	<main>
 		<section>
-			<p>{{ quote }}</p>
-			<a target="_blank" :href
-				><span>{{ author }}</span></a
-			>
+			<h2>
+				I'm <span class="highlight">{{ facts[0]['adjective'] }}</span>
+			</h2>
+			<p>{{ facts[0]['description'] }}</p>
 		</section>
-		<section id="buttons">
-			<button :disabled="isBtnDisabled">Another!</button>
-			<button :disabled="isBtnDisabled">Share</button>
+		<section>
+			<h2>
+				I'm <span class="highlight">{{ facts[1]['adjective'] }}</span>
+			</h2>
+			<p>{{ facts[0]['description'] }}</p>
+		</section>
+		<section>
+			<h2>
+				I'm <span class="highlight">{{ facts[2]['adjective'] }}</span>
+			</h2>
+			<p>{{ facts[0]['description'] }}</p>
 		</section>
 	</main>
 </template>
 
 <style scoped>
 main {
-	background: #ccd6d9;
-	max-width: 90%;
-	border-radius: 0 15px 0 15px;
-	padding: 35px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
+	margin-top: 15px;
 }
 
 section {
-	display: flex;
-	width: 100%;
-	flex-direction: column;
-	gap: 10px;
-	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+h2 {
+	font-size: 1.3rem;
+	color: #34495e;
+	margin-bottom: 3px;
 }
 
 p {
-	font-weight: bold;
-	font-style: italic;
-	font-size: 2rem;
-	text-align: left;
-}
-
-p::before {
-	content: '"';
-}
-
-p::after {
-	content: '"';
-}
-
-span,
-a {
-	align-self: end;
-	color: #406473;
-}
-
-span::before {
-	content: '- ';
-}
-
-#buttons {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-}
-
-button {
-	background: #406473;
-	color: white;
-	padding: 10px;
-	border: 0;
-	font-size: 1.2rem;
-	border-radius: 0 5px 0 5px;
-	font-weight: bold;
-	margin-top: 20px;
-	cursor: pointer;
-	transition: transform 0.2s;
-}
-button:hover {
-	transform: scale(1.05);
-}
-button:disabled {
-	background: grey;
-	cursor: not-allowed;
-	opacity: 0.5;
+	font-size: 0.9rem;
+	color: #555;
 }
 </style>
