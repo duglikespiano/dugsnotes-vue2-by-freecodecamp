@@ -1,35 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  background-color: #40b883;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	background-color: #005e54;
+	min-height: 99vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #app {
-  background-color: #eee;
-  width: 80%;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 35px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-
-span.highlight {
-  color: #40b883;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
