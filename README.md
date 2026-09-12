@@ -16,7 +16,7 @@
 - 프로젝트명 : dugsnotes_vue2_by_freecodecamp
 - 관련URL1 : https://youtu.be/Kt2E8nblvXU?si=viZ0DcWekE1eG7DI
 - 관련URL2 : https://scrimba.com/learn-vue-c0jrrpaasr
-- 기간 : 2026.08.23 - 진행중
+- 기간 : 2026.08.23 - 2026.09.12
 - 인원 : 1인
 - 기술스택 : </br>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">

@@ -16,7 +16,7 @@
 - Project title : dugsnotes_vue2_by_freecodecamp
 - Related URL1 : https://youtu.be/Kt2E8nblvXU?si=viZ0DcWekE1eG7DI
 - Related URL2 : https://scrimba.com/learn-vue-c0jrrpaasr
-- Period : Aug 23 2026 - in progress
+- Period : Aug 23 2026 - Sep 12 2026
 - Member(s) : Dug Park
 - Tech stack : </br>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">
