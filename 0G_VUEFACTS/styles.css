@@ -1,0 +1,87 @@
+/*BASE CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #40b883;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  background-color: #eee;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 35px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+span.highlight {
+  color: #40b883;
+}
+
+/**********/
+
+
+
+/*HEADER CSS*/
+header img {
+  height: 150px;
+}
+header h1 {
+  font-size: 2rem;
+  color: #34495e;
+  margin-top: 10px;
+}
+/**********/
+
+
+
+/* MAIN CSS */
+main {
+  margin-top: 15px;
+}
+
+main section {
+  margin-top: 25px;
+}
+
+main h2 {
+  font-size: 1.3rem;
+  color: #34495e;
+  margin-bottom: 3px;
+}
+
+main p {
+  font-size: 0.9rem;
+  color: #555;
+}
+/**********/
+
+
+
+/* FOOTER CSS */
+footer {
+  margin-top: 35px;
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #40b883;
+}
+/**********/

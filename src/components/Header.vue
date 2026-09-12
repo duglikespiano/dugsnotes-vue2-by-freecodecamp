@@ -1,11 +1,26 @@
-<script setup></script>
+<script setup>
+import src from '@/assets/logo_vue_300px.png';
+</script>
 
 <template>
 	<header>
-		<!-- LOGO IMAGE START -->
-		<img src="@/assets/logo.png" alt="logo" />
-		<!-- LOGO IMAGE END -->
+		<!--
+      This image has been commented out for now as it will break
+      until you've learnt how to work with images!
+      <img src="logo_vue_300px.png" alt="vue logo" />
+      -->
+		<img :src="src" alt="vue logo" />
+		<h1>Hi, I'm <span class="highlight">Vue</span></h1>
 	</header>
 </template>
 
-<style scoped></style>
+<style scoped>
+img {
+	height: 150px;
+}
+h1 {
+	font-size: 2rem;
+	color: #34495e;
+	margin-top: 10px;
+}
+</style>

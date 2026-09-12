@@ -1,20 +1,26 @@
-<script setup></script>
+<script setup>
+/*
+CHALLENGE: Create a Ref to house "https://vuejs.org/"
+           and bind the Ref to our anchor tag's href attribute.
+           Use shorthands if you want/can!
+*/
+import { ref } from 'vue';
+const href = ref('https://vuejs.org/');
+</script>
 
 <template>
 	<footer>
-		<!-- FOOTER LOGO IMAGE START -->
-		<img src="/logo_footer_35px.png" alt="white logo" />
-		<!-- FOOTER LOGO IMAGE END -->
-
-		Boxify &copy; 2025
+		<p>Learn more about me at <a target="_blank" :href>vuejs.org</a></p>
 	</footer>
 </template>
 
 <style scoped>
 footer {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 5px;
+	margin-top: 35px;
+	font-size: 0.8rem;
+}
+
+a {
+	color: #40b883;
 }
 </style>
